@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rejuv4All — Botanical Haute Haircare &amp; Restorative Ritual</title>
+  <meta name="description" content="Discover Rejuv4All signature hair oil. Architectural precision meets pure cold-pressed botanicals for radiant, revitalized strands.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&family=Poppins:wght@400;500;600&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="home.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<header class="site-header" id="site-header">
+  <a class="site-logo" href="#hero" aria-label="Rejuv4All home">
+    <img src="assets/images/web/logo_transparent.png" alt="Rejuv4All" width="700" height="254">
+  </a>
+
+  <nav class="site-nav d-none d-lg-flex" aria-label="Primary">
+    <a href="#hero">Home</a>
+    <a href="#story">Our Story</a>
+    <a href="#formula">The Formula</a>
+    <a href="#goals">Hair Journey</a>
+    <a href="#ritual">The Ritual</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#faq">Contact</a>
+  </nav>
+
+  <div class="site-tools">
+    <a class="icon-btn cart-link" href="#shop" aria-label="Cart">
+      <i class="fa-solid fa-bag-shopping"></i>
+      <span class="cart-count" id="cart-count" hidden>0</span>
+    </a>
+    <a class="btn-gold nav-cta" href="#shop">Shop Now<i class="fa-solid fa-arrow-right btn-ico btn-ico--after" aria-hidden="true"></i></a>
+    <button class="icon-btn d-lg-none" type="button" id="mobile-menu-btn" aria-label="Open navigation menu" aria-controls="mobile-nav" aria-expanded="false">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </div>
+</header>
+
+<div class="drawer-backdrop" id="drawer-backdrop" aria-hidden="true"></div>
+<aside class="drawer" id="mobile-nav" role="dialog" aria-modal="true" aria-label="Site navigation" aria-hidden="true">
+  <div class="drawer-head">
+    <a class="drawer-logo" href="#hero" aria-label="Rejuv4All home"><img src="assets/images/web/logo_transparent.png" alt="Rejuv4All" width="700" height="254"></a>
+    <button type="button" class="drawer-close" id="mobile-close-btn" aria-label="Close navigation menu"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+  </div>
+  <nav class="drawer-nav" aria-label="Mobile">
+    <a href="#hero">Home</a>
+    <a href="#story">Our Story</a>
+    <a href="#goals">Hair Journey</a>
+    <a href="#shop">The Signature Elixir</a>
+    <a href="#ritual">The Ritual</a>
+    <a href="#formula">The Formula</a>
+    <a href="#faq">FAQ &amp; Inquiries</a>
+  </nav>
+  <div class="drawer-foot">
+    <a class="btn-gold btn-block" href="#shop">Shop Now</a>
+    <a class="drawer-cart" href="#shop"><i class="fa-solid fa-bag-shopping" aria-hidden="true"></i><span>Cart</span><span class="drawer-cart-count" id="drawer-cart-count" hidden>0</span></a>
+  </div>
+</aside>
+
+<main>
+
+<!-- ============ 01 HERO ============ -->
+<section class="hero" id="hero" aria-roledescription="carousel" aria-label="Rejuv4All hero">
+  <div class="hero-slides" id="hero-slider">
+    <div class="hero-slide is-active" data-slide="0">
+      <img src="assets/images/herosection/DewyProfile.png" alt="Model with long healthy dark hair beside the Rejuv4All hair oil bottle" width="1376" height="768" fetchpriority="high">
+    </div>
+    <div class="hero-slide" data-slide="1">
+      <img src="assets/images/herosection/commercial_e_commerce_website_hero_banner_photograph_for_a_luxury_hair_oil.png" alt="Amber bottle surrounded by golden oil ripples" width="1376" height="768">
+    </div>
+    <div class="hero-slide" data-slide="2">
+      <img src="assets/images/herosection/luxury_beauty_and_hair_oil_e_commerce_hero_banner_photograph_directly_inspired.png" alt="Amber glass dropper bottle on dark slate with warm light" width="1376" height="768">
+    </div>
+  </div>
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <div class="eyebrow-line"><span class="rule"></span><span>Rejuv4All Signature Hair Care</span></div>
+    <h1>Your Hair Deserves A <br class="d-none d-sm-inline"><em>Beautiful Revival.</em></h1>
+    <p>Discover a thoughtful hair-care ritual with Rejuv4All's signature hair oil. Architectural botanicals crafted to awaken cellular vitality and weightless luster.</p>
+    <div class="hero-ctas">
+      <a class="hero-btn hero-btn--link" href="#shop"><span class="hero-btn__label">Shop Now</span><i class="fa-solid fa-arrow-right hero-btn__arrow" aria-hidden="true"></i></a>
+      <!-- <span class="hero-price" id="hero-price" hidden></span> -->
+    </div>
+  </div>
+
+  <div class="hero-controls">
+    <div class="hero-nums" role="tablist" aria-label="Choose slide">
+      <button type="button" class="is-active" data-go="0" role="tab" aria-selected="true"><span>01</span><i></i></button>
+      <button type="button" data-go="1" role="tab" aria-selected="false"><span>02</span><i></i></button>
+      <button type="button" data-go="2" role="tab" aria-selected="false"><span>03</span><i></i></button>
+    </div>
+    <div class="hero-arrows">
+      <button type="button" class="arrow-btn arrow-btn--dark" data-hero="prev" aria-label="Previous slide"><i class="fa-solid fa-chevron-left"></i></button>
+      <button type="button" class="arrow-btn arrow-btn--dark" data-hero="next" aria-label="Next slide"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 02 BRAND INTRODUCTION ============ -->
+<section class="section section--ivory story" id="story">
+  <div class="container-xl section-pad">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <div class="eyebrow eyebrow--dot"><span class="dot"></span>Maison Rejuv4All</div>
+        <h2 class="h-display">Beauty Begins With How You <em>Care.</em></h2>
+        <div class="gold-hairline mb-4"></div>
+        <p class="lead-copy">At Rejuv4All, we believe hair care is more than a routine. It's a personal journey of care, confidence, and rediscovery. Architectural precision meets pure cold-pressed botanicals to restore hair at the cellular level.</p>
+        <p class="small-copy">Every drop is formulated without filler waxes, artificial silicones, or heavy synthetic fragrances. We cultivate botanical affinity so your hair breathes naturally, glowing with genuine health rather than an artificial film.</p>
+        <div class="stats">
+          <div><strong>100%</strong><span>Cold-Pressed</span></div>
+          <div class="stat-rule"></div>
+          <div><strong>0%</strong><span>Cyclic Silicones</span></div>
+          <div class="stat-rule"></div>
+          <div><strong>50 ml</strong><span>Amber Glass Flacon</span></div>
+        </div>
+      </div>
+      <div class="col-lg-1 d-none d-lg-flex justify-content-center"><div class="gold-hairline-v"></div></div>
+      <div class="col-lg-5">
+        <figure class="frame-card">
+          <div class="crossfade">
+            <img src="assets/images/web/hero_slide3.webp" alt="Rejuv4All amber glass hair oil flacon" loading="lazy" width="1376" height="768" class="xf xf-1">
+            <img src="assets/images/web/hero_slide2.webp" alt="Rejuv4All elixir bottle in golden oil ripples" loading="lazy" width="1376" height="768" class="xf xf-2">
+          </div>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 03 HAIR JOURNEY – THREE STAGES ============ -->
+<section class="section section--white" id="journey">
+  <div class="container-xl section-pad">
+    <header class="section-head text-center">
+      <span class="eyebrow">Transformation By Design</span>
+      <h2 class="h-display">Every Hair Journey Has a <em>Beginning.</em></h2>
+      <div class="short-rule mx-auto"></div>
+      <p>Real nourishment is an intentional progression. Follow the three milestones of biological restorative hair health.</p>
+    </header>
+
+    <div class="row g-4 g-lg-4 stages">
+      <div class="col-md-4">
+        <article class="stage-card">
+          <div class="stage-top"><span class="mono-gold">Stage 01</span><span class="micro-muted">Concern</span></div>
+          <div class="ratio-43"><img src="assets/images/web/stage_concern.webp" alt="Hair showing thinning and uneven density" class="grayscale" loading="lazy" width="570" height="580"></div>
+          <h3>The Beginning</h3>
+          <p>Daily heat styling, mineral-heavy water, and dry weather strip the lipid envelope. Strands suffer from lifted cuticles, frizzed texture, and lack of cellular light refraction.</p>
+          <div class="stage-foot"><span>Cuticle Depletion</span><i class="fa-solid fa-exclamation"></i></div>
+        </article>
+      </div>
+      <div class="col-md-4">
+        <article class="stage-card">
+          <div class="stage-top"><span class="mono-gold">Stage 02</span><span class="micro-muted">Application</span></div>
+          <div class="ratio-43"><img src="assets/images/web/protocol_pipette.webp" alt="Golden oil dropped into the palm of a hand" loading="lazy" width="598" height="446"></div>
+          <h3>The Ritual</h3>
+          <p>Warming 2–4 droplets between palms breaks down micro-botanical compounds. Gently smoothed through lengths, virgin argan and camellia lipids seal fissures and lock damp hydration.</p>
+          <div class="stage-foot"><span>Lipid Infusion</span><i class="fa-solid fa-droplet"></i></div>
+        </article>
+      </div>
+      <div class="col-md-4">
+        <article class="stage-card stage-card--feature">
+          <div class="stage-top"><span class="mono-gold">Stage 03</span><span class="micro-muted is-gold">Evolution</span></div>
+          <div class="ratio-43"><img src="assets/images/web/protocol_hair.webp" alt="Smooth, glossy, healthy-looking hair" loading="lazy" width="596" height="446"></div>
+          <h3>The Journey</h3>
+          <p>With sustained weekly ritual use, strands emerge naturally silky, weightless, and supple. Light glides evenly along the aligned cortex without weight or slick residual buildup.</p>
+          <div class="stage-foot"><span>Radiant Vitality</span><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 04 SIGNATURE PRODUCT ============ -->
+<section class="section section--charcoal shop" id="shop">
+  <div class="glow"></div>
+  <div class="container-xl section-pad position-relative">
+    <div class="row g-5 align-items-start">
+      <div class="col-lg-7">
+        <div class="gallery-main">
+          <span class="gallery-badge">Batch 088 • Botanical Elixir</span>
+          <img id="gallery-main-image" src="assets/images/web/hero_slide3.webp" alt="Rejuv4All amber glass dropper hair oil bottle" width="1376" height="768">
+        </div>
+        <div class="gallery-strip">
+          <button type="button" class="strip-btn" id="thumb-prev" aria-label="Previous thumbnails"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+          <div class="gallery-thumbs" role="group" aria-label="Product views">
+          <button type="button" class="gallery-thumb is-active" data-src="assets/images/web/hero_slide3.webp" data-alt="Rejuv4All amber glass dropper hair oil bottle" aria-label="View front of bottle"><img src="assets/images/web/hero_slide3.webp" alt="" loading="lazy" width="200" height="200"></button>
+          <button type="button" class="gallery-thumb" data-src="assets/images/web/protocol_pipette.webp" data-alt="Pipette releasing a droplet of golden hair oil" aria-label="View pipette dropper"><img src="assets/images/web/protocol_pipette.webp" alt="" loading="lazy" width="200" height="200"></button>
+          <button type="button" class="gallery-thumb" data-src="assets/images/web/product_macro.webp" data-alt="Close-up of the ornate gold cap and golden oil ripples" aria-label="View cap and oil ripples"><img src="assets/images/web/product_macro.webp" alt="" loading="lazy" width="200" height="200"></button>
+          <button type="button" class="gallery-thumb" data-src="assets/images/web/hero_slide1.webp" data-alt="Rejuv4All bottle on a black pedestal beside the model" aria-label="View bottle on pedestal"><img src="assets/images/web/hero_slide1.webp" alt="" loading="lazy" width="200" height="200" class="pos-left"></button>
+          <button type="button" class="gallery-thumb" data-src="assets/images/web/product_bottle_closeup.webp" data-alt="Close-up of the Rejuv4All bottle with golden cap" aria-label="View bottle close-up"><img src="assets/images/web/product_bottle_closeup.webp" alt="" loading="lazy" width="200" height="200"></button>
+          <button type="button" class="gallery-thumb" data-src="assets/images/web/product_label_detail.webp" data-alt="Close-up of the amber bottle label and dropper collar" aria-label="View label detail"><img src="assets/images/web/product_label_detail.webp" alt="" loading="lazy" width="200" height="200"></button>
+          <button type="button" class="gallery-thumb" data-src="assets/images/web/product_ripples_detail.webp" data-alt="Golden oil ripples with botanical details" aria-label="View oil ripples detail"><img src="assets/images/web/product_ripples_detail.webp" alt="" loading="lazy" width="200" height="200"></button>
+        </div>
+          <button type="button" class="strip-btn" id="thumb-next" aria-label="Next thumbnails"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+        </div>
+      </div>
+
+      <div class="col-lg-5">
+        <div class="buy-head">
+          <span class="eyebrow eyebrow--light">The Rejuv4All Signature</span>
+          <h2 class="h-display h-display--sm">Meet Your New <br><em>Hair-Care Essential.</em></h2>
+          <p class="product-name">Rejuv4All Botanical Restorative Hair Elixir</p>
+          <div class="price-row"><span class="price">$68.00 USD</span><span class="stock">In Stock</span></div>
+          <p class="ship-note">Complimentary worldwide priority shipping on all orders.</p>
+        </div>
+
+        <dl class="specs">
+          <div><dt>Bottle Volume</dt><dd>50 ml / 1.7 fl. oz. (Approx. 90-day supply)</dd></div>
+          <div><dt>Extraction Method</dt><dd>Cold-Pressed Virgin Lipids</dd></div>
+          <div><dt>Vessel Material</dt><dd>Apothecary Amber UV-Shield Glass</dd></div>
+        </dl>
+
+        <div class="buy-actions">
+          <span class="micro-light">Select Quantity</span>
+          <div class="qty-row">
+            <div class="qty">
+              <button type="button" id="qty-minus" aria-label="Decrease quantity">−</button>
+              <input id="product-quantity" type="text" value="1" readonly aria-label="Quantity">
+              <button type="button" id="qty-plus" aria-label="Increase quantity">+</button>
+            </div>
+            <!-- <span class="qty-note">Limited allocation per client</span> -->
+          </div>
+          <button type="button" class="btn-gold btn-block" id="add-to-cart" data-price="68">Add to Cart — $68.00</button>
+          <button type="button" class="btn-outline-gold btn-block" id="buy-now">Buy Now — Instant Checkout</button>
+          <p class="cart-msg" id="cart-msg" role="status" aria-live="polite"></p>
+
+          <div class="trust">
+            <div class="pay-row"><i class="fa-solid fa-lock" aria-hidden="true"></i><span>Secure payments powered by Razorpay</span></div>
+            <div class="row g-2 mt-1 text-center">
+              <div class="col-4"><div class="trust-box"><i class="fa-solid fa-shield-halved"></i><span>30-Day Ritual Guarantee</span></div></div>
+              <div class="col-4"><div class="trust-box"><i class="fa-solid fa-leaf"></i><span>Amber Recycled Glass</span></div></div>
+              <div class="col-4"><div class="trust-box"><i class="fa-solid fa-truck-fast"></i><span>Carbon Neutral Delivery</span></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 05 APPLICATION GUIDE ============ -->
+<section class="section section--ivory" id="ritual">
+  <div class="container-xl section-pad">
+    <header class="section-head text-center">
+      <span class="eyebrow">Daily Protocol</span>
+      <h2 class="h-display">Make It a Ritual. <em>Make It Yours.</em></h2>
+      <div class="short-rule mx-auto"></div>
+      <p>Sensory ease meets architectural care. Follow our four-step ritual for maximum biological absorption.</p>
+    </header>
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-6">
+        <figure class="frame-card frame-card--plain">
+          <img src="assets/images/web/daily_protocol.webp" alt="Four-step photo guide: dispensing oil, warming hands, applying to hair lengths and smoothing ends" loading="lazy" width="1200" height="896" class="w-100 h-auto">
+          <figcaption class="text-center"><span class="eyebrow mb-0">The Four Stages of Sensorial Grooming</span></figcaption>
+        </figure>
+      </div>
+      <div class="col-lg-6">
+        <ol class="steps">
+          <li><span class="step-n">01</span><div><h3>Prepare — Warm &amp; Breathe</h3><p>Dispense 2–4 golden drops into warm palms. Rub hands together to activate active botanical lipid chains, inhaling the grounding woody cedar and warm amber notes.</p></div></li>
+          <li><span class="step-n">02</span><div><h3>Apply — Mid-Lengths to Ends</h3><p>Gently glide fingers like a wide-tooth comb through damp or towel-dried strands. Focus primarily on delicate mid-lengths and dry ends where cuticle stress is highest.</p></div></li>
+          <li><span class="step-n">03</span><div><h3>Massage — Follicle Circulation</h3><p>Gently press residual elixir upward into parting lines and temples. Use slow, circular fingertips to stimulate circulation and promote balanced, hydrated scalp skin.</p></div></li>
+          <li><span class="step-n">04</span><div><h3>Care — Style or Overnight Mask</h3><p>Blow-dry with thermal defense up to 450°F, air-dry for natural velvet texture, or leave in overnight with a silk scarf for deep weekly cellular renewal.</p></div></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 06 THE FORMULA ============ -->
+<section class="section section--white section--bordered" id="formula">
+  <div class="container-xl section-pad">
+    <header class="section-head section-head--left">
+      <span class="eyebrow">Bio-Cellular Chemistry</span>
+      <h2 class="h-display">Thoughtfully Crafted. <br><em>Every Detail Matters.</em></h2>
+      <div class="short-rule"></div>
+      <p>We source cold-extracted botanicals at their peak biological potency, harmonizing them without artificial emulsifiers or harsh synthetic preservatives.</p>
+    </header>
+
+    <div class="row g-4 mb-5">
+      <div class="col-md-6 col-lg-3"><article class="pillar pillar--dark"><div><span class="mono-gold">01 / Lipid Base</span><h3>Moroccan Argan Kernel</h3><p>Cold-pressed from high-elevation argan kernels. Rich in linoleic and oleic fatty acids that seal cuticles without greasiness.</p></div><span class="micro-muted">Elasticity &amp; Shine</span></article></div>
+      <div class="col-md-6 col-lg-3"><article class="pillar"><div><span class="mono-gold">02 / Velvet Coat</span><h3>Camellia Tsubaki Seed</h3><p>Celebrated across centuries of Japanese beauty traditions. Provides rapid-absorbing moisture that prevents static flyaways.</p></div><span class="micro-muted">Weightless Smoothness</span></article></div>
+      <div class="col-md-6 col-lg-3"><article class="pillar pillar--dark"><div><span class="mono-gold">03 / Biomimetic</span><h3>Virgin Golden Jojoba</h3><p>Micro-filtered liquid wax esters that mimic the scalp’s natural sebum balance, helping normalize oily or arid root conditions.</p></div><span class="micro-muted">Scalp Harmony</span></article></div>
+      <div class="col-md-6 col-lg-3"><article class="pillar"><div><span class="mono-gold">04 / Stimulant</span><h3>Rosemary Leaf Ferment</h3><p>Bio-fermented active carnosic acid promotes healthy follicle circulation and supports resilient hair retention over time.</p></div><span class="micro-muted">Root Vitality</span></article></div>
+    </div>
+
+    <div class="timeline-wrap mx-auto">
+      <div class="text-center mb-5">
+        <span class="eyebrow mono">Expected Timeline</span>
+        <h3 class="h-display h-display--xs">The Progression of <em>Transformation.</em></h3>
+      </div>
+
+      <div class="timeline d-none d-md-block">
+        <div class="tl-track">
+          <div class="tl-line tl-line--solid"><span class="tl-fill"></span></div>
+          <span class="tl-badge">Month 1–3</span>
+          <div class="tl-line tl-line--solid"><span class="tl-fill"></span></div>
+          <span class="tl-badge">Month 4–6</span>
+          <div class="tl-line tl-line--dotted"><span class="tl-fill"></span></div>
+          <span class="tl-badge">Month 7+</span>
+          <div class="tl-line tl-line--dotted tl-line--faint"><span class="tl-fill"></span></div>
+        </div>
+        <div class="row g-4 text-center tl-copy">
+          <div class="col-4"><p class="text-dark">Visibly fuller, healthier-looking hair.<br>Visibly less shedding.</p></div>
+          <div class="col-4"><p>Visibly thicker hair growth. Faster-growing, longer, and stronger hair.</p></div>
+          <div class="col-4"><p>Continue to manage root causes of hair thinning.<br>Maintain hair growth results.</p></div>
+        </div>
+      </div>
+
+      <div class="timeline-m d-md-none">
+        <span class="tlm-fill"></span>
+        <div><span class="tl-badge">Month 1–3</span><p>Visibly fuller, healthier-looking hair. Visibly less shedding.</p></div>
+        <div><span class="tl-badge">Month 4–6</span><p>Visibly thicker hair growth. Faster-growing, longer, and stronger hair.</p></div>
+        <div><span class="tl-badge">Month 7+</span><p>Continue to manage root causes of hair thinning. Maintain hair growth results.</p></div>
+      </div>
+
+      <p class="footnote text-center">Based on Rejuv4All botanical daily ritual usage. Individual results may vary.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 07 HAIR GOALS SLIDER ============ -->
+<section class="section section--goals" id="goals">
+  <div class="container-xl section-pad section-pad--tight">
+    <header class="section-head text-center">
+      <h2 class="h-display">Every Hair Journey Has a <em>Goal.</em></h2>
+      <div class="short-rule mx-auto mb-3"></div>
+      <p>Different hair concerns. Different journeys. Explore the hair-care goals that matter to you.</p>
+    </header>
+
+    <div class="goals" id="goals-slider-container" aria-roledescription="carousel" aria-label="Hair concerns">
+      <div class="goal-slides">
+
+        <div class="goal-slide is-active" data-goal="0">
+          <div class="goal-media">
+            <img src="assets/images/web/hair_journey1.webp" alt="Receding hairline before and after comparison" loading="lazy" width="1200" height="896">
+            <span class="tag tag--before tag--top">Before</span><span class="tag tag--after tag--top">Desired Look</span>
+          </div>
+          <div class="goal-body">
+            <div>
+              <div class="goal-meta"><span class="mono-gold">01 / 05</span><span class="chip">Hairline Refinement</span></div>
+              <h3>Receding Hairline</h3>
+              <p>Receding hairlines are commonly noticed around the temples and front hairline.</p>
+              <div class="target"><span class="dot"></span>Target Area: Frontal Temples &amp; Hairline</div>
+            </div>
+            <div class="outcome"><span class="mono-gold">Target Outcome</span><p>Desired Look: A naturally fuller-looking, more even hairline.</p></div>
+          </div>
+        </div>
+
+        <div class="goal-slide" data-goal="1">
+          <div class="goal-media">
+            <img src="assets/images/web/hair_journey3.webp" alt="Thinning crown before and after comparison" loading="lazy" width="1200" height="896">
+            <span class="tag tag--before tag--top">Before</span><span class="tag tag--after tag--top">Desired Look</span>
+          </div>
+          <div class="goal-body">
+            <div>
+              <div class="goal-meta"><span class="mono-gold">02 / 05</span><span class="chip">Crown Vitality</span></div>
+              <h3>Thinning Crown</h3>
+              <p>Reduced hair coverage around the crown can make the scalp more visible.</p>
+              <div class="target"><span class="dot"></span>Target Area: Crown Vertex &amp; Scalp</div>
+            </div>
+            <div class="outcome"><span class="mono-gold">Target Outcome</span><p>Desired Look: The appearance of fuller, more uniform hair coverage.</p></div>
+          </div>
+        </div>
+
+        <div class="goal-slide" data-goal="2">
+          <div class="goal-media">
+            <img src="assets/images/web/hair_journey2.webp" alt="Patchy-looking hair before and after comparison" loading="lazy" width="1200" height="896">
+            <span class="tag tag--before">Before</span><span class="tag tag--after">Desired Look</span>
+          </div>
+          <div class="goal-body">
+            <div>
+              <div class="goal-meta"><span class="mono-gold">03 / 05</span><span class="chip">Density Balance</span></div>
+              <h3>Patchy-Looking Hair</h3>
+              <p>Uneven-looking hair coverage can create visible differences in hair density.</p>
+              <div class="target"><span class="dot"></span>Target Area: Mid-Scalp &amp; Parting Lines</div>
+            </div>
+            <div class="outcome"><span class="mono-gold">Target Outcome</span><p>Desired Look: A more uniform-looking hair appearance.</p></div>
+          </div>
+        </div>
+
+        <!-- MISSING ASSET: before/after image for "Thin-Looking Hair" (see report) -->
+        <div class="goal-slide" data-goal="3">
+          <div class="goal-media goal-media--placeholder">
+            <img src="assets/images/others/hair_journey4.png" alt="Patchy-looking hair before and after comparison" loading="lazy" width="1200" height="896">
+            <span class="tag tag--before">Before</span><span class="tag tag--after">Desired Look</span>            
+          </div>
+          <div class="goal-body">
+            <div>
+              <div class="goal-meta"><span class="mono-gold">04 / 05</span><span class="chip">Lift &amp; Bounce</span></div>
+              <h3>Thin-Looking Hair</h3>
+              <p>Hair that appears fine or lacks volume can affect the overall look of your hairstyle.</p>
+              <div class="target"><span class="dot"></span>Target Area: Overall Shaft Body &amp; Root Lift</div>
+            </div>
+            <div class="outcome"><span class="mono-gold">Target Outcome</span><p>Desired Look: Hair with a fuller, healthier-looking appearance.</p></div>
+          </div>
+        </div>
+
+        <!-- MISSING ASSET: before/after image for "Dry & Frizzy Hair" (see report) -->
+        <div class="goal-slide" data-goal="4">
+          <div class="goal-media goal-media--placeholder">
+            <img src="assets/images/others/hair_journey5.png" alt="Patchy-looking hair before and after comparison" loading="lazy" width="1200" height="896">
+            <span class="tag tag--before">Before</span><span class="tag tag--after">Desired Look</span>            
+          </div>
+          <div class="goal-body">
+            <div>
+              <div class="goal-meta"><span class="mono-gold">05 / 05</span><span class="chip">Cuticle Smoothness</span></div>
+              <h3>Dry &amp; Frizzy Hair</h3>
+              <p>Dryness and frizz can make hair appear rough, dull, and difficult to manage.</p>
+              <div class="target"><span class="dot"></span>Target Area: Mid-Lengths &amp; Porous Ends</div>
+            </div>
+            <div class="outcome"><span class="mono-gold">Target Outcome</span><p>Desired Look: Smoother-looking, shinier, and more manageable hair.</p></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="goal-bar">
+        <div class="goal-tabs" role="tablist" aria-label="Hair concerns">
+          <button type="button" class="goal-tab is-active" data-goal-tab="0" role="tab" aria-selected="true">01 <span>Hairline</span></button>
+          <button type="button" class="goal-tab" data-goal-tab="1" role="tab" aria-selected="false">02 <span>Crown</span></button>
+          <button type="button" class="goal-tab" data-goal-tab="2" role="tab" aria-selected="false">03 <span>Density</span></button>
+          <button type="button" class="goal-tab" data-goal-tab="3" role="tab" aria-selected="false">04 <span>Volume</span></button>
+          <button type="button" class="goal-tab" data-goal-tab="4" role="tab" aria-selected="false">05 <span>Texture</span></button>
+        </div>
+        <div class="goal-arrows">
+          <button type="button" class="arrow-btn" data-goal-nav="prev" aria-label="Previous hair concern"><i class="fa-solid fa-chevron-left"></i></button>
+          <button type="button" class="arrow-btn" data-goal-nav="next" aria-label="Next hair concern"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+    <!-- <p class="footnote text-center mt-3">Images are illustrative and are not verified customer results or a guarantee of outcomes.</p> -->
+  </div>
+</section>
+
+<!-- ============ 08 TESTIMONIALS ============ -->
+<section class="section section--ivory section--bordered-b" id="reviews">
+  <div class="container-xl section-pad">
+    <header class="section-head text-center">
+      <span class="eyebrow">Client Stories</span>
+      <h2 class="h-display">Real Stories. <em>Personal Journeys.</em></h2>
+      <div class="short-rule mx-auto"></div>
+      <p>Genuine notes from women who made Rejuv4All their quiet daily ritual.</p>
+    </header>
+    <!-- NOTE: these three reviews come from the Stitch reference. Confirm they are genuine before launch. -->
+    <div class="review-slider">
+    <div class="review-carousel owl-carousel">
+      <figure class="review">
+        <div><div class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <blockquote>“I have fine, color-treated blonde hair that snaps easily. Most oils make me look greasy within an hour. Two drops of Rejuv4All left my ends feeling like spun cashmere.”</blockquote></div>
+        <figcaption><strong>Julianne Mercier</strong><span>Fine Bleached • Color Treated</span></figcaption></figure>
+      <figure class="review">
+        <div><div class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <blockquote>“Living with 3B curls means combating chronic dryness. This oil defines the curl pattern while preserving the natural bounce. And the cedar scent is divine.”</blockquote></div>
+        <figcaption><strong>Maya Sterling</strong><span>Curly 3B • Dry Ends</span></figcaption></figure>
+      <figure class="review">
+        <div><div class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <blockquote>“I heat style four times a week. Adding this as a primer protected my lengths from singeing and transformed dullness into an immediate mirror gloss.”</blockquote></div>
+        <figcaption><strong>Genevieve Clarke</strong><span>Thick Wavy • Heat Styled</span></figcaption></figure>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- ============ 09 FAQ ============ -->
+<section class="section section--ivory" id="faq">
+  <div class="container section-pad faq-wrap">
+    <header class="section-head text-center">
+      <span class="eyebrow">Consultation &amp; Inquiries</span>
+      <h2 class="h-display">Frequently Asked <em>Questions.</em></h2>
+      <div class="short-rule mx-auto"></div>
+    </header>
+    <div class="faq-list">
+      <details class="faq-item" open><summary><span>What is Rejuv4All Hair Oil?</span><i class="fa-solid fa-plus"></i></summary><div class="faq-a">Rejuv4All Botanical Restorative Hair Elixir is an ultra-concentrated, cold-pressed treatment engineered to revitalize brittle ends, seal raised cuticles, and nurture scalp health. It pairs active plant lipids with lightweight absorption so hair maintains light, touchable movement.</div></details>
+      <details class="faq-item"><summary><span>How should I apply the product?</span><i class="fa-solid fa-plus"></i></summary><div class="faq-a">Warm 2 to 4 drops between palms. Run fingers evenly through clean, towel-dried lengths before blow drying or smoothing across dry hair to finish styling. You can also massage a full pipette into the scalp as an overnight conditioning mask.</div></details>
+      <details class="faq-item"><summary><span>How often should I use it?</span><i class="fa-solid fa-plus"></i></summary><div class="faq-a">Because our formula contains zero heavy waxes, it can be applied daily to dry ends as thermal defense and flyaway control. For deep scalp nourishment, we recommend using it as a pre-wash mask 1 to 2 times weekly.</div></details>
+      <details class="faq-item"><summary><span>Is it suitable for my hair type?</span><i class="fa-solid fa-plus"></i></summary><div class="faq-a">Yes. Rejuv4All is calibrated with universal lipid affinity. It works seamlessly across straight, fine, wavy, coily (Type 1 through 4C), bleached, keratin-treated, and chemically smoothed textures.</div></details>
+      <details class="faq-item"><summary><span>What are the ingredients?</span><i class="fa-solid fa-plus"></i></summary><div class="faq-a">Our signature formula features 100% cold-pressed Moroccan Argan Oil, Japanese Camellia Tsubaki Seed Oil, Virgin Golden Jojoba Ester, Rosemary Leaf Bio-Ferment, Natural Tocopherol (Vitamin E), and subtle botanical extracts of Bergamot and Cedarwood. Zero parabens, sulfates, cyclic silicones, or phthalates.</div></details>
+      <details class="faq-item"><summary><span>Do you offer international shipping?</span><i class="fa-solid fa-plus"></i></summary><div class="faq-a">Yes. We offer complimentary worldwide express shipping with end-to-end carbon tracking on all orders. Shipments to North America and Europe typically arrive within 3–5 business days, and international deliveries arrive in 5–8 business days.</div></details>
+      <details class="faq-item"><summary><span>What is your return policy?</span><i class="fa-solid fa-plus"></i></summary><div class="faq-a">We provide a 30-Day Ritual Guarantee. If Rejuv4All does not elevate your daily hair care, simply reach out to our concierge desk for an effortless return and full refund.</div></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 10 FINAL PURCHASE ============ -->
+<section class="section section--charcoal final-cta">
+  <div class="glow glow--center"></div>
+  <div class="container section-pad text-center position-relative final-inner">
+    <div class="final-thumb"><img src="assets/images/web/hero_slide2.webp" alt="Rejuv4All amber bottle in golden light" loading="lazy" width="1376" height="768"></div>
+    <span class="eyebrow eyebrow--light">Begin Your Transformation</span>
+    <h2 class="h-display h-display--light">Your Hair-Care Journey <br><em>Starts Here.</em></h2>
+    <p class="final-copy">Discover the Rejuv4All signature hair oil. Formulated to grant your hair radiant strength, weightless sheen, and an indelible sense of quiet luxury.</p>
+    <div class="final-ctas">
+      <a class="btn-gold btn-lg-x" href="#shop">Shop Now — $68 USD</a>
+      <a class="btn-glass btn-lg-x" href="#formula">View Formula Details</a>
+    </div>
+    <div class="final-tags"><span>Cold-Pressed</span><span>•</span><span>UV-Glass Packaging</span><span>•</span><span>Cruelty-Free</span></div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ 11 FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container-xl footer-pad">
+    <div class="row g-5 mb-5">
+      <div class="col-md-6 col-lg-4">
+        <a href="#hero" class="d-inline-block mb-4"><img src="assets/images/web/logo_transparent.png" alt="Rejuv4All" class="footer-logo" width="700" height="254" loading="lazy"></a>
+        <p class="foot-copy">Architectural precision meets regenerative botanical alchemy. Formulated without compromise for transformative, sensory hair health and cellular renewal.</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram (link to be added)"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook (link to be added)"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="YouTube (link to be added)"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2 offset-lg-1">
+        <h4>The Maison</h4>
+        <ul>
+          <li><a href="#hero">Home</a></li><li><a href="#story">Our Story</a></li><li><a href="#formula">The Formula</a></li><li><a href="#goals">Hair Journey</a></li><li><a href="#ritual">The Ritual</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <h4>Client Care</h4>
+        <ul>
+          <li><a href="#faq">Contact</a></li><li><a href="#faq">Shipping &amp; Returns</a></li><li><a href="#faq">Consultation &amp; FAQ</a></li><li><a href="#shop">Track Order</a></li><li><a href="#">Accessibility</a></li>
+        </ul>
+      </div>
+      <div class="col-md-12 col-lg-3">
+        <h4>Gazette Privée</h4>
+        <p class="foot-copy">Receive monograph dispatches, early allocations, and holistic restorative protocols.</p>
+        <form class="newsletter" id="newsletter-form">
+          <input type="email" placeholder="ENTER EMAIL ADDRESS" required aria-label="Email address">
+          <button type="submit">Join</button>
+        </form>
+        <p class="newsletter-msg" id="newsletter-msg" role="status" aria-live="polite"></p>
+      </div>
+    </div>
+    <div class="foot-bar">
+      <div>© 2025 REJUV4ALL BOTANICALS. ALL RIGHTS RESERVED.</div>
+      <div class="foot-links"><a href="#">PRIVACY POLICY</a><span>•</span><a href="#">TERMS OF SERVICE</a><span>•</span><a href="#">SUSTAINABILITY</a></div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="home.js"></script>
+</body>
+</html>
